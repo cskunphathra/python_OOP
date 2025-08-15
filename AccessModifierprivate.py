@@ -17,7 +17,7 @@ class Employee:
     def getSalary(self):
         return self.__salary
 
-emp1 = Employee('อาทิตย์', 50000, 'วิชาการ')
+emp1 = Employee('สุกณภัทรา', 50000, 'วิชาการ')
 emp1.setSalary(51000) # เปลี่ยนค่า salary ผ่าน Setter Method
 print(f'เงินเดือนใหม่ของ {emp1.getSalary()} บาท') # อ่านค่า salary ผ่าน Getter Method
 emp1.showData() # เรียกใช้ Public Method แสดงข้อมูล
